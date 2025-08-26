@@ -136,9 +136,11 @@ phraselist = ["Master Skywalker, did you know that in terms of human pokemon bre
 "go ahead. keep screaming 'Shut The Fuck Up ' at me. it only makes my opinions Worse ",
 "the worst part of nationalism is having to pretend the flag is really good, like 'yeah the country looks exactly like that. they nailed it' ",
 "Twitter, as I understand it, is a sort of 'Hell' that I was banished to upon death in my previous life.",
+"Fake children, real treasure!"
 ]
 
 endnumber = len(phraselist)
 randomnumber = random.randint(0, endnumber-1)
 
 print(phraselist[randomnumber])
+
